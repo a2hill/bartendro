@@ -2,7 +2,7 @@ import collections
 from time import sleep, localtime, time
 import serial
 from struct import pack, unpack
-import router.pack7
+from router import pack7
 
 __author__ = 'austinhill'
 
