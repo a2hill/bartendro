@@ -83,6 +83,7 @@ def crc16_update(crc, a):
             crc = (crc >> 1)
     return crc
 
+
 class RouterDriver(object):
     '''This object interacts with the bartendro router controller.'''
 
